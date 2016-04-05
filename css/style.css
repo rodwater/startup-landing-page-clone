@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    border: 1px solid Chocolate;
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+
+}
+
+.top-navigation .links {
+	float:right;
+	margin-top: 1.7rem;
+	font-size: 1.04rem;
+	color: #838994;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+
+}
+
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight:300;
+}
+    
+.introduction h1 {
+	margin-top: 17rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	font-size: 1.563rem;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: .5rem 1.5rem;
+    background-color: #Fd7f00;
+    color: #fff ;
+    font-size: 1.2rem;
+    width: 155px;
+    height: 53px;
+ }
+
+ button:hover {
+ 	background-color: #db6f01;
+ }
+
+ .cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases .devices {
+	display: inline-block;
+	width: 20%;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+
+
