@@ -132,6 +132,7 @@ button {
     margin: 2.5rem 0px 1.875rem;
 }
 
+<<<<<<< HEAD
 .social {
 	text-align: center;
 	margin: 0 auto;
@@ -151,10 +152,19 @@ button {
 	display: inline-block;
 	text-align: center;
 	margin: 5px 5px;
+=======
+.social .content {
+	text-align: center;
+>>>>>>> 550e41eb47f170b6cf24d9fc5ed65a80f87c48e5
 
 }
 
+.social h4 {
+	text-align: center;
+	font-weight: 300;
+}
 
+<<<<<<< HEAD
 .twitter {
 	color: #55acee;
 }
@@ -170,4 +180,17 @@ button {
 h5 {
 	font-weight: 100;
     color: #838994;
+=======
+.social h5 {
+	text-align: center;
+	font-weight: 100;
+}
+
+.logo i {
+	border-radius: 30px;
+	border: 1px solid;
+	padding: .7rem .5rem;
+	width: 40px;
+	height: 40px;
+>>>>>>> 550e41eb47f170b6cf24d9fc5ed65a80f87c48e5
 }
