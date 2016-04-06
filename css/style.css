@@ -132,5 +132,42 @@ button {
     margin: 2.5rem 0px 1.875rem;
 }
 
+.social {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.social h4 {
+		font-weight: 400;
+}
+
+.logo > li {
+	border-radius: 30px;
+	border: 2px solid #eaebec;
+	padding: .5rem .5rem;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 5px;
+
+}
 
 
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
+}
+
+h5 {
+	font-weight: 100;
+    color: #838994;
+}
