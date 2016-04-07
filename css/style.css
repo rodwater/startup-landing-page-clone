@@ -25,6 +25,7 @@ div {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
 
@@ -142,6 +143,10 @@ button {
 		font-weight: 400;
 }
 
+.social ul {
+	padding: 0;
+}
+
 .logo li {
 	border-radius: 30px;
 	border: 2px solid #eaebec;
@@ -149,7 +154,6 @@ button {
 	width: 40px;
 	height: 40px;
 	display: inline-block;
-	text-align: center;
 	margin: 5px 5px;
 
 }
@@ -170,3 +174,4 @@ h5 {
 	font-weight: 100;
     color: #838994;
 }
+
